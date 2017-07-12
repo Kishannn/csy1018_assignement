@@ -1,0 +1,148 @@
+<!--kishan luitel(17439842) -->
+body
+{
+	background-image: url(images/background.jpg);
+background-color:white;
+padding:0%;
+margin:0%;
+}
+h1 {
+	color: white;
+	margin:0.5%;
+	padding:2%;
+font-size: 3em
+}
+
+#heading{
+
+	background-color: grey;
+	display: flex;
+	flex-direction: row;
+	margin: 0.5%;
+	height: 100px;
+	
+
+}
+
+
+#navbar{
+	   background:grey;
+     margin:0.5%;
+     display: flex;
+     flex-flow: row wrap;
+     height: 13%;
+    
+}
+#navbar ul{
+	 height: 50%;
+     width: 90%;
+     
+  	 display: flex;
+     flex-flow: row wrap;
+     
+   }
+#navbar li{
+      list-style: none;
+      line-height: normal;
+    }
+#navbar ul li{
+
+	word-spacing: 1%;
+  	text-align:center;
+    flex: 1 auto;
+    background:white ;
+    margin: 2%;
+    padding: 0.5%;
+    cursor: pointer;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+}
+#navbar ul li a{
+
+  	color: blue;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+
+  }
+
+#navbar ul li:hover{
+    background: red;
+
+}
+#index{
+	background-color:grey;
+	padding: 1%;
+	margin: 0.5%;
+	display: flex;
+}
+#welcome{
+	background-color:grey;
+	padding: 1%;
+	margin: 0.5%;}
+#photo{
+	padding: 1%;
+	margin-right: 2%;
+
+
+}
+
+
+#biography{
+	background: lightblue;
+	padding: 5%;
+	margin: 0.5%;
+
+
+}
+#cv{
+	background: lightblue;
+	padding: 3%;
+	margin: 0.5%;
+}
+
+#contact{
+	background: lightblue;
+	padding: 3%;
+	margin: 0.5%;
+
+
+}
+
+
+
+
+footer{
+
+	text-align: center;
+	padding: 1%;
+	margin: 0.5%;
+	background-color: grey;
+}
+footer img{
+	height: 50px;
+	width: 50px;
+}
+
+@media all and (max-width: 400px){
+	 .navbar ul,.index, .welcome{
+		flex-direction:column ;
+}
+.navbar{height: 200px;}
+  img {
+    max-width: 100px;
+    height: auto;
+}
+h1,section,.navbar{
+  width: 98%;
+}
+h1{ font-size: 3em;
+}
+h3, h2,h4, h5 {font-size: 0.9em;}
+p {font-size: 0.7em;}
+}
+footer img{
+	height: 30px;
+	width: 30px;
+}

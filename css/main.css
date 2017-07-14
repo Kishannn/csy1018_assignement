@@ -27,6 +27,7 @@ font-size: 3em
 
 
 #navbar{
+	padding:1%;
 	   background:grey;
      margin:0.5%;
      display: flex;
@@ -91,20 +92,52 @@ font-size: 3em
 
 
 #biography{
-	background: lightblue;
-	padding: 5%;
+	background: grey;
+	padding: 1%;
 	margin: 0.5%;
 
 
 }
-#cv{
-	background: lightblue;
-	padding: 3%;
+#collection{
+
+
+	background: grey;
+	padding: 1%;
 	margin: 0.5%;
+	width: 98%;
+
+}
+#collection img{
+	height: 200px;
+	width: 200px;
+}
+
+#Gallary{
+	border-radius: 20px;
+	float: center;
+	background: green;
+	padding: 0%;
+	margin: 0.5%;
+	height: 50px;
+	width: 200px;
+	display :flex;
+	flex-flow: row wrap; 
+
+
+}
+#Gallary a{
+
+	color: white;
+	font-size: 30px;
+	
+}
+#gallary:hover{
+    color: red;
+
 }
 
 #contact{
-	background: lightblue;
+	background: grey;
 	padding: 3%;
 	margin: 0.5%;
 
@@ -127,23 +160,28 @@ footer img{
 }
 
 @media all and (max-width: 400px){
-	 .navbar ul,.index, .welcome{
+	 #navbar ul,#index, #welcome{
 		flex-direction:column ;
 }
-.navbar{height: 200px;}
+
   img {
     max-width: 100px;
     height: auto;
 }
-h1,section,.navbar{
+h1,section,#navbar{
   width: 98%;
 }
 h1{ font-size: 3em;
 }
 h3, h2,h4, h5 {font-size: 0.9em;}
 p {font-size: 0.7em;}
-}
+
 footer img{
 	height: 30px;
 	width: 30px;
+}
+#collection img{
+	height: 100px;
+	width: 100px;
+}
 }
